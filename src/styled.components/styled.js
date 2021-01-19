@@ -251,6 +251,8 @@ export const StyledButton = styled.button`
           return { color: colors.warning }
         case 'danger':
           return { color: colors.danger }
+        default:
+          return { color: colors.dark }
       }
     }}
 `

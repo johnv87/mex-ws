@@ -1,8 +1,3 @@
-import { useState } from 'react'
-import { useDispatch } from 'react-redux'
-import { sendMessage } from '../redux/actions'
-import { StyledButton, StyledInput } from '../styled.components/styled'
-
 export default function HeroView({ id, name, race }) {
   return (
     <div className='hero__view'>
