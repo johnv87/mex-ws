@@ -1,0 +1,68 @@
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero__view {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 1rem);
+  max-width: 768px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .hero__view {
+    flex-direction: row;
+  }
+}
+.hero__view__image {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-right: none;
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+  min-height: 200px;
+  width: calc(100% - 2rem);
+}
+@media screen and (min-width: 768px) {
+  .hero__view__image {
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: none;
+    width: 40%;
+  }
+}
+.hero__view__data {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  min-height: 160px;
+  width: calc(100% - 2rem);
+}
+@media screen and (min-width: 768px) {
+  .hero__view__data {
+    align-items: flex-start;
+    width: 60%;
+  }
+}
+.hero__view__data__text {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.hero__buttons {
+  text-align: center;
+}
+.hero__buttons__name--cancel {
+  margin-left: 0.5rem !important;
+}
+
+/*# sourceMappingURL=index.css.map */
